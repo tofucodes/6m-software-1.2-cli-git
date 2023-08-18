@@ -1,0 +1,65 @@
+html {
+    background-color: rgb(182, 167, 205);
+    font-family: sans-serif
+}
+
+h1 {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: rgb(217, 215, 78);
+}
+
+div {
+    margin: 0 100px 50px 100px;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 5px
+}
+#basics {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+ul {
+    padding: 0px;
+    margin-top: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(217, 215, 78);
+}
+
+.btn:hover {
+    background-color:rgb(176, 158, 195) ;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#stella {
+    width: 350px;
+    height: auto
+}
+
+#flag {
+    width:50px;
+    height: 50px
+}
